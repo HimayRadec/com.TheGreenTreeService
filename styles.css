@@ -1,0 +1,8 @@
+* {
+    margin: 0;
+}
+
+.green-tree-service {
+    display: flex;
+    align-items: center; /* Center vertically */
+}
