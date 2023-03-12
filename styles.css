@@ -16,14 +16,14 @@
 }
 
 .green-tree-service img {
-    height: 80px;
-    width: 80px;
+    height: 70px;
+    width: 70px;
     margin: 0px 10px;
 }
 
 .green-tree-service h1 {
     font-size: 3em;
-    margin-left: 10px;
+    margin-left: 30px;
     color: #4E3524;
 }
 
@@ -32,7 +32,6 @@ nav {
     justify-content: space-between;
     align-items: center;
     background-color: rgb(255, 255, 255);
-    border: 1px green dashed;
 }
 
 .nav-menu {
@@ -63,6 +62,7 @@ nav {
     background-image: url("Assets/coverPicture.jpg");
     background-size: cover;
     height: 700px;
+    border: 1px rgb(56, 56, 56) solid;
 }
 
 .cover-info {
