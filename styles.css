@@ -113,6 +113,8 @@ nav {
 
 .services h2 {
     color: white;
+    font-size: 2em;
+    margin-top: 20px;
     border: 1px red dashed;
     text-align: center;
 }
@@ -124,5 +126,17 @@ nav {
 }
 .services ul li {
     color: white;
-    list-style-type: circle;
+    list-style-type: disc;
+    font-size: 1.2em;
+    font-weight: 300;
+}
+
+.services-list {
+    display: flex;
+    justify-content: center;
+}
+
+.services-list div {
+    border: 1px green dashed;
+    margin: 20px 200px;
 }
