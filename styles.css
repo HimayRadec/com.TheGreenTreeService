@@ -102,3 +102,17 @@ nav {
     background-color: #3c601f;
     transition: 0.5s;
 }
+
+.services {
+    background-color: rgb(25, 25, 25);
+    display: flex;
+    justify-content: center;
+}
+
+.services ul {
+    margin: 30px 0px 30px 0px;
+}
+.services ul li {
+    color: white;
+    list-style-type: circle;
+}
