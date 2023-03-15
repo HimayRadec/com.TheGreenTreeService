@@ -28,6 +28,8 @@
 }
 
 nav {
+    width: 100%;
+    position: fixed;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -108,21 +110,17 @@ nav {
     display: flex;
     justify-content: center;
     flex-flow: column;
-    border: 1px white dashed;
 }
 
 .services h2 {
     color: white;
     font-size: 2em;
     margin-top: 20px;
-    border: 1px red dashed;
     text-align: center;
 }
 
 .services ul {
     margin: 30px 0px 30px 0px;
-    border: 1px red dashed;
-    text-align: center;
 }
 .services ul li {
     color: white;
@@ -133,10 +131,177 @@ nav {
 
 .services-list {
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
 }
 
 .services-list div {
-    border: 1px green dashed;
     margin: 20px 200px;
 }
+
+.quote {
+    display: flex;
+}
+
+.column {
+    height: 500px;
+    width: 50%;
+    display: flex;
+    background-color: #6ba33c;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.column a {
+    width: 17%;
+    height: 50px;
+    color: white;
+    background-color: #3c601f;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    font-weight: 500;
+    /* top left bottom right */
+    margin: 30px auto 30px auto;
+}
+
+.column a:hover {
+    background-color: #304d19;
+    transition: 0.5s linear;
+    font-weight: 700;
+}
+
+.column h1 {
+    font-size: 2em;
+}
+
+.column p {
+    font-size: 1em;
+}
+
+.column img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+    margin: 0;
+}
+
+.about {
+    display: flex;
+}
+
+.about-text {
+    margin-left: auto;
+    margin-right: auto;
+    min-width: 300px;
+    max-width: 50%;
+    text-align: start;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.about-text div {
+    margin-top: 20px;
+}
+
+.images {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+}
+
+.image-item {
+    height: 500px;
+  }
+
+.image-item img {
+    height: 100%;
+    width: 100%; 
+    object-fit: cover;
+
+}
+
+.third-item {
+    object-position: top;
+}
+
+.certifications {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    border-top: 20px solid #507b2d;
+}
+
+.certifications div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 350px;
+}
+
+.certifications div h2 {
+    color: white;
+}
+
+#first-certification {
+    background-color: #486e29;
+}
+
+#second-certification {
+    background-color: #507b2d;
+}
+
+#third-certification {
+    background-color: #669c3a;
+}
+
+.contact {
+    background-color: #253915 ;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact a {
+    margin: 80px auto 20px auto;
+    padding: 20px 120px;
+    border-radius: 30px;
+    font-weight: 700;
+    font-size: 1.5em;
+    background-color: #609237;
+    color: white;
+    text-decoration: none;
+}
+
+.contact a:hover {
+    background-color: #3c601f;
+    transition: 0.5s;
+}
+
+.contact p {
+    color: white;
+    font-size: 2em;
+    margin-bottom: 40px;
+}
+.contact form {
+    display: flex;
+    flex-direction: column;
+    width: 750px;
+    /* max-width: 90%; Not sure how to make it more mobile */
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.contact form input, textarea {
+    margin: 10px auto;
+    width: 100%;
+    height: 30px;
+    background-color: #486e29;
+    border: none;
+}
+
