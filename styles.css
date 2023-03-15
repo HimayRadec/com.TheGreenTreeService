@@ -23,7 +23,7 @@
 
 .green-tree-service h1 {
     font-size: 3em;
-    margin-left: 30px;
+    margin-left: 300px;
     color: #4E3524;
 }
 
@@ -47,6 +47,7 @@ nav {
     width: 20%;
     height: 100%;
     text-align: center;
+    text-decoration: none;
 
     font-size: 1.5em;
     color: #4E3524;
@@ -63,7 +64,7 @@ nav {
 .cover-picture {
     background-image: url("Assets/coverPicture.jpg");
     background-size: cover;
-    height: 700px;
+    height: 830px;
     border: 1px rgb(56, 56, 56) solid;
 }
 
@@ -106,7 +107,7 @@ nav {
 }
 
 .services {
-    background-color: rgb(25, 25, 25);
+    background-color: rgb(40, 40, 40);
     display: flex;
     justify-content: center;
     flex-flow: column;
@@ -147,7 +148,7 @@ nav {
     height: 500px;
     width: 50%;
     display: flex;
-    background-color: #6ba33c;
+    background-color: whitesmoke;
     flex-direction: column;
     justify-content: center;
     text-align: center;
@@ -260,7 +261,7 @@ nav {
 }
 
 .contact {
-    background-color: #253915 ;
+    background-color: #22311d ;
     display: flex;
     flex-flow: column;
     justify-content: center;
@@ -269,7 +270,7 @@ nav {
 
 .contact a {
     margin: 80px auto 20px auto;
-    padding: 20px 120px;
+    padding: 15px 100px;
     border-radius: 30px;
     font-weight: 700;
     font-size: 1.5em;
@@ -285,13 +286,13 @@ nav {
 
 .contact p {
     color: white;
-    font-size: 2em;
+    font-size: 1.2em;
     margin-bottom: 40px;
 }
 .contact form {
     display: flex;
     flex-direction: column;
-    width: 750px;
+    width: 850px;
     /* max-width: 90%; Not sure how to make it more mobile */
     margin-left: auto;
     margin-right: auto;
@@ -305,3 +306,34 @@ nav {
     border: none;
 }
 
+::placeholder {
+    color: whitesmoke;
+    font-size: 15px;
+    font-weight: 100;
+}
+
+input[type=text], textarea {
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    color: whitesmoke;
+    font-size: 1em;
+}
+  
+#send-button {
+    color: white;
+    font-weight: bold;
+    background-color: rgb(124, 183, 61);
+    margin-bottom: 40px;
+}
+
+#send-button:hover {
+    background-color: rgb(105, 154, 54);
+    transition: 0.5s;
+}
+
+#send-button:active {
+    background-color: rgb(80, 121, 36);
+    transition: 0.5s;
+
+}
